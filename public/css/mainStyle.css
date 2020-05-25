@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+}
+
+body button {
+    background-color: darkcyan;
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 50px;
+}
+
+body button:hover {
+    background-color: #0050ac;
+}
+
+body input {
+    background-color: #eee;
+    padding: 1em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    overflow-y: scroll;
+    width: 50%;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+#textBuckets{
+    margin-bottom: 5px;
+}
+
+#bucketsUl{
+    height: 250px;
+    border: 6px ridge;
+    border-color: #0050ac;
+    border-radius: 8px;
+    margin: auto;
+}
+
+#textObjects{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#objectsUl{
+    height: 250px;
+    border: 6px ridge;
+    border-color: #0050ac;
+    border-radius: 8px;
+    margin: auto;
+}
+
+#viewButton{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 60px;
+    width: 15%;
+}
+
+#createBucket{
+    margin-right: 10%;
+    display: inline-block;
+}
+
+#uploadFile{
+    display: inline-block;
+}
+
+#lowerText{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+#deleteButton{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: darkred;
+}
+#deleteButton:hover{
+    background-color: red;
+}

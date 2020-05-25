@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Autodesk Forge: 3D Viewer App Sample</title>
+    <link rel="stylesheet" type="text/css" href="css/viewerStyle.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- Autodesk Forge Viewer files -->
+    <link rel="stylesheet" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/6.*/style.min.css" type="text/css">
+    <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/6.*/viewer3D.min.js"></script>
+
+    <!--Load extensions-->
+    <script src="extensions/onclick_properties_extension.js"></script>
+    <script src="extensions/categorize_elements_extension.js"></script>
+    <script src="extensions/change_selection_extension.js"></script>
+
+    <script src="js/viewerTools.js"></script>
+
+</head>
+
+<body>
+
+    <div id="viewer"></div>
+
+    <div id="customUi">
+        <div><button type="button" id="homeButton" onclick="goHome()">Home</button>
+        Items selected: <span id="selectionValue">0</span></div>
+    </div>
+
+</body>
+
+</html>

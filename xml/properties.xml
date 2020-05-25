@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+
+	<StructuralWallSecondFloor>
+		<Properties>
+			<IfcExportAs>IfcWallType.STANDARD</IfcExportAs>
+			<LoadBearing>1</LoadBearing>
+			<Layer>Level 2</Layer>
+		</Properties>
+		<color>
+			<red>1</red>
+			<green>0</green>
+			<blue>0</blue>
+		</color>
+	</StructuralWallSecondFloor>
+	
+	<ArchitectualWall>
+		<Properties>
+			<IfcExportAs>IfcWallType.STANDARD</IfcExportAs>
+			<LoadBearing>0</LoadBearing>
+		</Properties>
+		<color>
+			<red>0</red>
+			<green>1</green>
+			<blue>0</blue>
+		</color>
+	</ArchitectualWall>
+
+	<Window>
+		<Properties>
+			<IfcExportAs>IfcWindowStyle</IfcExportAs>
+		</Properties>
+		<color>
+			<red>0</red>
+			<green>0</green>
+			<blue>1</blue>
+		</color>
+	</Window>
+	
+	<Slab>
+		<Properties>
+			<IfcExportAs>IfcSlabType.FLOOR</IfcExportAs>
+		</Properties>
+		<color>
+			<red>0</red>
+			<green>0</green>
+			<blue>1</blue>
+		</color>
+	</Slab>
+	
+	<Column>
+		<Properties>
+			<IfcExportAs>IfcColumnType.COLUMN</IfcExportAs>
+		</Properties>
+		<color>
+			<red>1</red>
+			<green>1</green>
+			<blue>0</blue>
+		</color>
+	</Column>
+	
+</elements>

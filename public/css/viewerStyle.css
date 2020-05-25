@@ -1,0 +1,65 @@
+body button {
+    background-color: darkcyan;
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+body button:hover {
+    background-color: #0050ac;
+}
+
+#homeButton{
+    width: 70px;
+    height: 35px;
+    font-size: medium;
+}
+
+#customUi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    margin: .3em;
+    padding: .3em;
+    font-size: 1em;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 4px;
+}
+#customUi span {
+    color: red;
+}
+#propertiesButton {
+    background-image: url('images/properties.png');
+    background-position: center;
+    background-size:     cover;
+}
+
+#colorButton{
+    background-color: rgb(255,0,0);
+}
+
+#clearColorsButton{
+    background-image: url('images/noColors.png');
+    background-position: center;
+    background-size:     cover;
+}
+
+#xmlButton{
+    background-image: url('images/xml.png');
+    background-position: center;
+    background-size:     cover;
+}
+
+#changeSelection{
+    background-image: url('images/selectionMode.png');
+    background-position: center;
+    background-size:     cover;
+}
+#changePropertySet{
+    background-image: url('images/propertySet.png');
+    background-position: center;
+    background-size:     cover;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "categorize_elements",
+  "version": "1.0.0",
+  "description": "Categorize and color different elements with user defined parameters.",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deian Stoitchkov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "xml2js": "^0.4.23"
+  }
+}

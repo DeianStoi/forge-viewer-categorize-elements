@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Autodesk Forge application">
+    <title>Categorize elements</title>
+
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/mainTools.js"></script>
+    
+</head>
+
+<body>
+    
+    <main id="main">
+
+        <h2 id="textBuckets">Please choose a bucket</h2>
+        <nav>
+            <ul id="bucketsUl">
+            </ul>
+        </nav>
+
+        <h2 id="textObjects">Please choose an object</h2>
+        <nav>
+            <ul id="objectsUl">
+                <li>First click on a bucket!</li>
+            </ul>
+        </nav>
+
+        <div>
+            <button type="button" id="viewButton" onclick="viewObject()">View</button>
+        </div>
+
+        <div id="createBucket">
+            <h2 id="lowerText">Create new bucket</h2>
+            <input type="text" id="bucketName"/>
+            <button type="button" onclick="createBucket()">Create Bucket</button>
+        </div>
+
+        <div id="uploadFile">
+            <h2 id="lowerText">Upload new file to bucket</h2>
+            <form id="uploadForm" enctype="multipart/form-data" method="post">
+                <input type="file" name="fileToUpload" id="fileToUpload"/>
+                <button type="button" id="submitButton" onclick="uploadFile()">Submit</button>
+            </form>
+        </div>
+
+        <div id="deleteFuntions"></div>
+            <h2 id="lowerText">Delete functions</h2>
+
+            <button type="button" id="deleteButton" onclick="deleteTranslation()">Delete translation</button>
+            
+            <button type="submit" id="deleteButton" onclick="deleteObject()">Delete object</button>
+            
+            <button type="submit" id="deleteButton" onclick="deleteBucket()">Delete bucket</button>
+        </div>
+
+    </main>
+
+    <script>
+        getBuckets();
+    </script>
+
+</body>
+
+</html>
